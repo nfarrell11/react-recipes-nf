@@ -26,16 +26,12 @@ This project was developed as part of a course assignment, using a custom authen
 
 ---
 
-## 📸 Preview
-
-> 🖼️ _(Add screenshot here of your app UI — dashboard, block editor, etc.)_
-
----
-
 ## 🌐 Live Demo
 
-**[🔗 Visit the app on Vercel](https://your-app.vercel.app)**  
-_(Replace the URL with your deployed instance)_
+**[🔗 Visit the app on Vercel](https://https://react-recipes-nf-git-main-nfarrell11s-projects.vercel.app/blocks)**  
+
+Provided sign in name: guest@bcit.ca
+Provided sign in password: component
 
 ---
 
