@@ -3,7 +3,9 @@ import { getUserFromSession } from "../core/session";
 import { cache } from "react";
 import { redirect } from "next/navigation";
 import { db } from "@/database";
-
+/**
+ * @author adhanji8
+ */
 type FullUser = Exclude<
   Awaited<ReturnType<typeof getUserFromDb>>,
   undefined | null

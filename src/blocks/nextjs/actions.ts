@@ -5,7 +5,9 @@ import { getUserFromSession } from "@/auth/core/session";
 import { redirect } from "next/navigation";
 import { cookies } from "next/headers";
 import { ReadonlyRequestCookies } from "next/dist/server/web/spec-extension/adapters/request-cookies";
-
+/**
+ * @author adhanji8
+ */
 /**
  * Create Block Action - creates a new block in the logged in user's collection
  * @param formData - Form data from BlockForm
@@ -92,7 +94,7 @@ export async function getBlockById(blockId: number): Promise<FetchedBlockType> {
     where: { id: blockId },
   });
 
-  if(!block) {
+  if (!block) {
     throw new Error("Block not found")
   }
 

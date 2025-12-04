@@ -16,7 +16,12 @@ import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { signUpSchema } from "../schemas";
 import Link from "next/link";
-
+/**
+ * Sign Up Form component
+ * @see https://react-hook-form.com/docs/useform
+ * @author adhanji8
+ * @returns a sign up form component
+ */
 export function SignUpForm() {
   const [error, setError] = useState<string>();
   const form = useForm<z.infer<typeof signUpSchema>>({
